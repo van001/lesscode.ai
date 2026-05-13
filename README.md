@@ -2,7 +2,7 @@
 
 > *The Art of Building Living Software*
 
-![Maya Karma Kaya Philosophy Diagram](sandbox:/mnt/data/a_wide_high_resolution_mystical_techno_spiritual.png)
+![Maya Karma Kaya Philosophy Diagram](./lesscode2.png)
 
 > “The future of software may not be bigger frameworks.
 > It may be smaller reusable meaning.”
