@@ -2,12 +2,14 @@
 
 > *The Art of Building Living Software*
 
-![Maya Karma Kaya Philosophy Diagram](./lesscode2.png)
+![Maya Karma Kaya Philosophy Diagram](sandbox:/mnt/data/a_wide_high_resolution_mystical_techno_spiritual.png)
 
 > “The future of software may not be bigger frameworks.
 > It may be smaller reusable meaning.”
 
-## Introduction
+---
+
+# Introduction
 
 I started coding more than three decades ago.
 
@@ -28,38 +30,59 @@ Whenever a human interacts with a computer, they are usually doing some variatio
 
 In other words:
 
-```text id="x0x8j0"
+```text id="9rfk7s"
 CRUD
 ```
 
 That’s the foundation of almost every application ever built.
 
-Then the next realization becomes simple:
+Applications are fundamentally either synchronous or asynchronous.
 
-If actions are synchronous:
+Both still use protocols.
 
-* use protocols
+The real difference is simple:
 
-If actions are asynchronous:
+In synchronous systems, you get the result immediately.
 
-* use queues and orchestration
+In asynchronous systems, you wait for realization.
 
-That’s it.
-
-```text id="tgb7s4"
-Human Interaction
-        |
-        v
-      CRUD
-        |
-   ----------------
-   |              |
-Synchronous   Asynchronous
-   |              |
-Protocols      Queues
-   |              |
- APIs        Orchestration
+```text id="kqjv2m"
+        User Action
+             |
+     ----------------
+     |              |
+ Synchronous    Asynchronous
+     |              |
+ Immediate       Delayed
+ Response        Realization
 ```
+
+Examples of synchronous interactions:
+
+* loading a webpage
+* querying a dashboard
+* viewing a customer record
+* updating a form and getting validation instantly
+
+Examples of asynchronous interactions:
+
+* ordering from Amazon
+* requesting a veterinary appointment
+* applying for a job
+* generating an invoice
+* processing a payment
+* enterprise workflow approvals
+
+The protocol still exists in both systems.
+
+But asynchronous systems introduce:
+
+* orchestration
+* queues
+* retries
+* workflows
+* state transitions
+* eventual realization
 
 From there you can build almost anything:
 enterprise systems,
@@ -125,7 +148,7 @@ That realization slowly evolved into:
 
 Inspired philosophically by years of reading Vedic philosophy and the Upanishads.
 
-```text id="ahkz97"
+```text id="q5pd9k"
 Maya  = imagination / possibility / soul
 Karma = action / intent / movement
 Kaya  = realization / experience / body
@@ -156,7 +179,7 @@ Possibilities.
 
 Maya became a frontend composition architecture capable of placing reusable containers and micro frontends anywhere on the screen.
 
-```text id="zw2qai"
+```text id="k5tsv0"
                  Maya
       Infinite Possibilities
 
@@ -187,7 +210,7 @@ A lightweight frontend composition system that defines:
 
 Those containers can host an infinite number of micro frontends.
 
-```text id="dfh7i4"
+```text id="e7q4hf"
         Maya Container Layer
 
    ---------------------------------
@@ -205,15 +228,6 @@ Those containers can host an infinite number of micro frontends.
 
 Maya itself does not care what is inside the containers.
 
-That realization became important because frontend engineering became fragmented over time:
-
-* designers focused on visuals
-* frontend engineers focused on frameworks
-* backend engineers focused on APIs
-* product teams focused on workflows
-
-Very few people could reason about the experience as one composable semantic system.
-
 ---
 
 # Karma — Action and Intent
@@ -224,7 +238,7 @@ Karma became the semantic action layer.
 
 Every business interaction could be reduced into:
 
-```text id="ecaghy"
+```text id="puhv6s"
 actor + intent + noun
 ```
 
@@ -235,7 +249,7 @@ Like:
 * doctor approves refill
 * manager publishes feed
 
-```text id="1rf2yx"
+```text id="t6i3m0"
              Karma Protocol
 
         Semantic Backend Engine
@@ -264,6 +278,28 @@ Karma became the declarative backend protocol that defines:
 * storage
 * effects
 * semantic meaning
+
+Most real-world business systems are actually asynchronous.
+
+```text id="2u6x1z"
+client + request + appointment
+```
+
+does not instantly become:
+
+```text id="sll0um"
+appointment scheduled
+```
+
+There is a journey:
+
+* request submitted
+* review
+* scheduling
+* notification
+* completion
+
+That journey is Karma.
 
 Instead of repeatedly coding workflows and business logic, the system defines reusable meaning once.
 
@@ -298,7 +334,7 @@ And the system reacts based on those interactions.
 
 That’s fundamentally what most applications are.
 
-```text id="w1r8ia"
+```text id="grjlwm"
  User Interaction
         |
         v
@@ -322,7 +358,7 @@ They should emerge dynamically from semantic meaning.
 
 Kaya became the realization layer inside the Maya containers.
 
-```text id="wdhfrn"
+```text id="m7jlwm"
         Maya Container
               |
               v
@@ -360,11 +396,15 @@ At its core, Kaya is built from:
 * personalities
 * semantic rendering rules
 
-```text id="2n8blw"
+```text id="9rtmzr"
 Maya  = imagination / possibility / soul
 Karma = action / intent / movement
 Kaya  = body / realization / experience
 ```
+
+Maya dreams.
+Karma moves.
+Kaya becomes visible.
 
 Just like the human body, Kaya provides:
 
@@ -386,18 +426,6 @@ The same semantic system can render completely differently simply by changing:
 
 Which means in the future, experiences themselves can become dynamically personalized for every individual interacting with the system.
 
-One user may see:
-
-* calm editorial layouts
-* warm colors
-* minimal interaction
-
-Another may see:
-
-* operational dashboards
-* dense workflows
-* compact interfaces
-
 Same semantic system.
 Different realization.
 
@@ -405,7 +433,7 @@ That became incredibly powerful while building the veterinary platform for [Cami
 
 For example:
 
-```text id="wn4p03"
+```text id="lxu8zv"
 request.appointment
 ```
 
@@ -430,7 +458,7 @@ The public website becomes the AI-readable and SEO-readable projection of the sa
 > “Reality itself is recursive.
 > Software should evolve the same way.”
 
-```text id="r6jivk"
+```text id="utvdr4"
          Maya → Karma → Kaya
 
       Imagination → Action → Reality
@@ -479,21 +507,6 @@ Smaller semantic units.
 Smaller composable building blocks.
 Less repeated engineering.
 More emergence.
-
-Today I’m applying this philosophy while building dynamic AI-native platforms for real businesses like [Camino Alto Veterinary Hospital](https://caminoaltovet.com?utm_source=chatgpt.com), where:
-
-* public SEO pages
-* customer CTAs
-* staff workflows
-* reviews
-* hiring
-* feeds
-* operational systems
-* admin applications
-
-all evolve continuously from shared semantic models instead of endless rewrites.
-
-The public website becomes the AI-readable and SEO-readable projection of the same operational system powering the secured application underneath.
 
 Maybe software was never supposed to be static.
 
