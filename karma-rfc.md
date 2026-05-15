@@ -1,3 +1,3 @@
-# Karma Protocol RFC v0.1
+# Karma RFC
 
-Semantic Runtime Protocol for Declarative Business Systems.
+Semantic Runtime Protocol.
