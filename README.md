@@ -2,7 +2,7 @@
 
 > *The Art of Building Living Software*
 
-![Maya MFE Architecture](./maya-mfe-architecture.png)
+![Maya Karma Kaya](./maya-karma-kaya.png)
 
 > “Maybe software was never supposed to be static.  
 > Maybe it was supposed to evolve like life itself.”
@@ -192,6 +192,8 @@ Kaya becomes visible.
 
 > “Maya is not the application.  
 > Maya is the infinite container of what could exist.”
+
+![Maya MFE Architecture](./maya-mfe-architecture.png)
 
 Maya became the possibility layer.
 
